@@ -7,15 +7,36 @@ body{
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    color: chartreuse;
+    color: rgb(30, 31, 29);
+    
 }
+#cabecera{
+    background: darkgreen;
+    box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.5);
+    color: seashell;
+    font-weight: bold;
+    padding: 1em;
+    width: 100%;
+}
+#cabecera #tagline{
+    padding: 1em 0 0 0;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
 #container{
     width: 70%;
-    padding: 1em;
     text-align: left;
     border: 1px solid crimson;
     margin: 0 auto;
 }
 #container h1{
     font-size: 20px;
+    color: rgb(32, 31, 29);
+    padding: 2em 1em 0.7em 1em;
+}
+#container p{
+    font-size: 20px;
+    color: rgb(32, 31, 29);
+    padding: 0 1em;
 }
